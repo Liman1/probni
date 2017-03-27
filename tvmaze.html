@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TVMaze Example</title>	
+	<link rel="stylesheet" href="style.css">
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.js"
+            integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+            crossorigin="anonymous"></script>
+    </script>	
+</head>
+
+<body> 
+	  <header>
+		<div class="container">
+		  <h1 id="page-title">TV Maze APP</h1>
+		  <form>
+			<label for="subject">Choose the most popular name of the actor</label>
+			<select name="subject" id="subject">
+				  <option value="John">John</option>
+				  <option value="Barbara">Barbara</option>
+				  <option value="Matt">Matt</option>
+				  <option value="Sara">Sara</option>
+			</select>
+		  </form>
+		  <br>
+		  <form > 
+				<label for="subject2">or type name (remove cursor form box after typing)</label>
+				<input type="text" name="subject" id="subject2">
+		  </form>
+		</div>
+	  </header>
+	  <main>
+		<div class="container" id="artwork"></div>
+	  </main>
+	
+	<script src="tvApp.js"></script>
+</body>
+
+
+</html>
